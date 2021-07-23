@@ -12,14 +12,13 @@
 <body>
   <div class="container">
     <header>
-      <div class="searchbar">
-        <h1>Dojonary</h1>
+      <nav id="navbar">
+        <h1 style="font-size:35px;">Dojonary</h1>
         <form class="search">
           <input class="search" type="search" placeholder="Search">
         </form>
-        <input class="btn" type="button" value="login">
-
-      </div>
+        <input class="btn" type="button" value="login" onclick="changeText(this)">
+      </nav>
     </header>
 
     <div class="first-blk">
@@ -27,7 +26,7 @@
         <h1>ninja</h1><br>
         <P>&nbsp;&nbsp;<em>noun</em></p><br>
         <p>Plural: <em>ninjas</em></p><br>
-        <input class="yellow-btn" type="button" value="13 likes">
+        <input class="yellow-btn" type="button" value="13 likes" onclick="alert('Ninja was liked')">
       </div>
 
       <div class="right-col">
@@ -40,7 +39,7 @@
     <div class="second-blk">
       <div class="third-col">
         <p>Dojonary is<br>defined by <strong>YOU</strong></p><br>
-        <input class="green-btn" type="button" value="Add Definition">
+        <input class="green-btn" type="button" value="Add Definition" onclick="hide(this)">
       </div>
     </div>
 
@@ -49,7 +48,7 @@
         <h1>ninja</h1><br>
         <P>&nbsp;&nbsp;<em>noun</em></p><br>
         <p>Plural: <em>ninjas</em></p><br>
-        <input class="yellow-btn" type="button" value="37 likes">
+        <input class="yellow-btn" type="button" value="37 likes" onclick="alert('Ninja was liked')">
       </div>
 
       <div class="right-col">

@@ -18,9 +18,9 @@
  "third-blk third-blk . ";
 }
 
-.searchbar{
+#navbar{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 
@@ -81,9 +81,6 @@ margin-left: 50px;
   font-size: 25px;
 }
 
-.left-col h1{
-  font-size: 45px;
-}
 
 .third-col{
 display: grid;
@@ -113,7 +110,6 @@ font-size: 30px;
     box-shadow: 2px 2px black;
     padding: 5px 20px;
     height: 30px;
-    margin-right:65px;
   }
 
   .yellow-btn{
