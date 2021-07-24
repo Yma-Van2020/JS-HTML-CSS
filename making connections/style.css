@@ -1,0 +1,272 @@
+.container {
+  border: 3px rgb(189, 188, 188) solid;
+  width: 530px;
+  height: 300px;
+  position: absolute;
+  left: 450px;
+  top: 150px;
+}
+
+.container-2 {
+  border: 3px rgb(189, 188, 188) solid;
+  width: 530px;
+  height: 320px;
+  position: absolute;
+  left: 450px;
+  top: 480px;
+}
+
+.container-2 header {
+  background-color: rgb(63, 61, 61);
+  height: 45px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.container-3 header {
+  background-color: rgb(63, 61, 61);
+  height: 45px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.container-4 header {
+  background-color: rgb(63, 61, 61);
+  height: 45px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.container-3 {
+  border: 3px rgb(189, 188, 188) solid;
+  width: 250px;
+  height: 180px;
+  position: absolute;
+  left: 1000px;
+  top: 150px;
+}
+
+.container-4 {
+  border: 3px rgb(189, 188, 188) solid;
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  left: 1000px;
+  top: 350px;
+}
+
+.num{
+  border-radius: 50%;
+  background-color: rgb(184, 51, 17);
+  margin-left: 20px;
+  height: 12px;
+  width: 25px;
+  text-align: center;
+  padding:5px;
+  font-size: 10px;
+}
+
+.container header {
+  background-color: rgb(100, 185, 211);
+  border: 1px rgb(100, 185, 211) solid;
+  height: 85px;
+  width: 533px;
+  z-index: 1;
+  position: absolute;
+  left: -3px;
+  top: -3px;
+}
+
+.userimg {
+  width: 82px;
+  z-index: 3;
+  position: absolute;
+  top: 36px;
+  left: 27px;
+}
+
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  top: 29px;
+  left: 20px;
+  border: 3px solid rgb(189, 188, 188);
+  background-color: white;
+}
+
+.row img {
+  position: absolute;
+  top: 165px;
+  left: 20px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.userimg {
+  border-radius: 50%;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row div {
+  position: absolute;
+  top: 130px;
+  left: 20px;
+  font-size: 30px;
+}
+
+.row p {
+  position: absolute;
+  top: 168px;
+  left: 50px;
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 15px;
+  color: white;
+  padding-left: 10px;
+}
+
+#intro {
+  position: absolute;
+  top: 220px;
+  left: 30px;
+  font-size: 15px;
+}
+
+.edit {
+  position: absolute;
+  top: 266px;
+  left: 20px;
+  height: 20px;
+}
+
+.editProf {
+  position: absolute;
+  top: 270px;
+  left: 50px;
+  font-size: 13px;
+}
+
+/* 
+nav bar */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: rgb(66, 66, 66);
+  padding: 10px 20px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 15px;
+}
+
+a:hover {
+  color: yellow;
+}
+
+ul {
+  display: flex;
+}
+
+h1 {
+  flex: 1;
+}
+
+.nav-links{
+  margin-right: 360px;
+}
+.btn {
+  width: 80px;
+  padding:3px;
+  border: black;
+  box-shadow: 10px 5px 5px black;
+  background-color: cornflowerblue;
+  color: aliceblue;
+}
+
+/* 
+people img */
+
+.pimg {
+  height: 35px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+/* peopele */
+
+.person1 {
+  display: flex;
+  align-items: center;
+}
+
+.person2 {
+  display: flex;
+  align-items: center;
+}
+
+.person3 {
+  display: flex;
+  align-items: center;
+}
+
+.person4 {
+  display: flex;
+  align-items: center;
+}
+
+.person5 {
+  display: flex;
+  align-items: center;
+}
+
+.person6 {
+  display: flex;
+  align-items: center;
+}
+
+.container-2 p {
+  padding: 20px;
+}
+
+.fa-check-circle {
+  padding-left: 25px;
+}
+
+.fa-times {
+  padding-left: 26px;
+}
+
+.fa-heart {
+  padding-left: 25px;
+}
+
+.nav-title {
+  margin-left:430px;
+}
