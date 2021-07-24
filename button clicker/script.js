@@ -1,6 +1,6 @@
 
 function hide (element) {
-  element.remove()
+  element.remove();
 }
 
 function changeText (element) {
