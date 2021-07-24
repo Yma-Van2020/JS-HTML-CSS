@@ -7,12 +7,18 @@ function changeText (element) {
   element.value = 'logout'
 }
 
-function addLike1 (element) {
-  element.value = '14 likes'
+let like = 13
+var element = document.querySelector('#first-like')
+function addLike () {
+  like++
+  element.value = like + " likes"
   alert('Ninjia was liked')
 }
 
-function addLike2 (element) {
-  element.value = '38 likes'
+var element2 = document.querySelector('#second-like')
+let like2 = 37
+function addLike2 () {
+  like2++
+  element2.value = like2 + " likes"
   alert('Ninjia was liked')
 }
