@@ -1,0 +1,131 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* nav bar */
+
+nav {
+    background-color: rgb(151, 184, 245);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    position: relative;
+    left: 70px
+}
+
+nav h1{
+    position: relative;
+    right: 40px
+}
+nav li {
+    margin: 20px;
+    list-style: none;
+    font-size: 21px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.row {
+    border-bottom: 2px grey solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin-bottom: 2em;
+}
+
+.flex-container {
+    width: 930px;
+    /* center the main container */
+    margin: 0 auto;
+}
+
+/* grid */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1 {
+    height: 400px;
+}
+
+.box2 {
+    height: 400px;
+}
+
+.box3 {
+    height: 400px;
+}
+
+.box4 {
+    height: 400px;
+}
+
+.box5 {
+    grid-column: 1/5;
+    border: solid 2px #333;
+    height: 180px;
+    margin-top: -1em;
+    background: rgb(228, 226, 226);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper .box {
+    background: rgb(228, 226, 226);
+    padding: 1em;
+}
+
+.btn {
+    padding: 5px;
+    background-color: rgb(155, 184, 240);
+    color: rgb(19, 18, 18);
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    padding: 8px 20px;
+}
+
+.box img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.high_low {
+   display: flex;
+}
+
+.left{
+    margin-right: 100px;
+    color: tomato;
+}
+
+.right{
+    color: cornflowerblue;
+}
+
+li:hover {
+    color: purple;
+  }
+

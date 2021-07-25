@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>DojoWeather</h1>
+      <ul>
+        <li onclick="alert('Loading weather report...')">Burbank</li>
+        <li onclick="alert('Loading weather report...')">Chicago</li>
+        <li onclick="alert('Loading weather report...')">Dallas</li>
+      </ul>
+    </nav>
+
+    <div class="flex-container main">
+      <div class="row">
+        <h2>San Jose</h2>
+
+        <div class="select">
+          <label for="temp">show temperature in</label>
+          <select name="temperature_unit" id="temp" onchange="convert(this)">
+            <option>°C</option>
+            <option>°F</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="box box1">
+          <h2>Today</h2>
+          <img src="assets/some_rain.png" alt="rain icone" />
+          <p>some rain</p>
+          <div class="high_low">
+            <h2 class="left"><span>24</span>°</h2>
+            <h2 class="right"><span>18</span>°</h2>
+          </div>
+        </div>
+
+        <div class="box box2">
+          <h2>Tomorrow</h2>
+          <img src="assets/some_sun.png" alt="sun icon" />
+          <p>some sun</p>
+          <div class="high_low">
+            <h2 class="left"><span>27</span>°</h2>
+            <h2 class="right"><span>19</span>°</h2>
+          </div>
+        </div>
+
+        <div class="box box3">
+          <h2>Friday</h2>
+          <img src="assets/some_sun.png" alt="sun icone" />
+          <p>some clouds</p>
+          <div class="high_low">
+            <h2 class="left"><span>21</span>°</h2>
+            <h2 class="right"><span>16</span>°</h2>
+          </div>
+        </div>
+
+        <div class="box box4">
+          <h2>Saturday</h2>
+          <img src="assets/some_clouds.png" alt="cloudy icon" />
+          <p>some sun</p>
+          <div class="high_low">
+            <h2 class="left"><span>26</span>°</h2>
+            <h2 class="right"><span>21</span>°</h2>
+          </div>
+        </div>
+
+        <div class="box5">
+          <img src="assets/cookie.png" alt="cookie icone" />
+          <div class="text">
+            <h2>Stop! Cookie time</h2>
+            <p>
+              We use cookies(sdly not the edible ones) to personalize<br />
+              content and ads, to provide social media feature and to analyse
+              our traffic.<a href="#">Read more...</a>
+            </p>
+          </div>
+          <input type="button" value="I Accept" class="btn" onclick="hide()"/>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
