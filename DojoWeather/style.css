@@ -96,6 +96,9 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    bottom:80px;
+    width: 935px;
 }
 
 .wrapper .box {
