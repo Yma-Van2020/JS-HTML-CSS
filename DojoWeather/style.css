@@ -16,10 +16,15 @@ nav {
     align-items: center;
 }
 
+nav h1{
+    position: relative;
+    left: 15px 
+}
+
 nav ul {
     display: flex;
     position: relative;
-    left: 70px
+    left: 20px
 }
 
 nav h1{
